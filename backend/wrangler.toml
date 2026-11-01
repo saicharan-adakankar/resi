@@ -1,0 +1,7 @@
+name = "resi-groq"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+[vars]
+MODEL = "openai/gpt-oss-20b"
+ALLOWED_ORIGIN = "https://saicharan-adakankar.github.io"
+# Add GROQ_API_KEY using Cloudflare secrets, never here.
